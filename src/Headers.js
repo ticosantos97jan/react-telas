@@ -1,17 +1,10 @@
 import React, { useState } from 'react';
 import {
-    Collapse,
     Navbar,
     NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText
+    NavbarBrand
+    
+   
 } from 'reactstrap';
 
 const Headers = (props) => {
