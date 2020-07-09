@@ -32,7 +32,9 @@ height: 100%;
 }
 .footer{
 margin:auto;
-height:5vw;
+height:8vh;
+width:100%;
 box-sizing: border-box;    
+position:absolute;
 }
 
