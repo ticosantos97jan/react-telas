@@ -1,23 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
     Navbar,
-    NavbarToggler,
-    NavbarBrand
     
    
 } from 'reactstrap';
 
 const Headers = (props) => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggle = () => setIsOpen(!isOpen);
+    
 
     return (
         <div>
-            <Navbar color="info" dark expand="md">
-                <NavbarBrand href="/">Login</NavbarBrand>
-                <NavbarToggler onClick={toggle} />
-                
+            <Navbar className="titulo " color="info" dark expand="md"> <h2 className="login text-center">Login</h2>
+          
+    
+    
+                   
             </Navbar>
         </div>
     );

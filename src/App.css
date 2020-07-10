@@ -13,6 +13,12 @@ html {
  height:100%;
 }
 
+.titulo{
+ width: 100%; 
+}
+.login{
+margin: auto;  
+}
 
 .input{
 width:200px;
